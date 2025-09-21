@@ -1,4 +1,3 @@
-<<<<<<< copilot/fix-6a56420c-f9d3-40f6-afc2-ea46047a3ff4
 # 💕 Love Calculator
 
 A fun and romantic web application that calculates love compatibility between two people based on their names. Built with HTML, CSS, and JavaScript with a beautiful, responsive design.
@@ -63,11 +62,11 @@ A fun and romantic web application that calculates love compatibility between tw
 
 *Made with ❤️ for fun • Not scientifically accurate!*
 =======
+=======
 # Love-Calculator
 I'll create a Love Calculator app with a clean, romantic design that calculates compatibility based on names. Here's the implementation:
 
 # output
 - check with this url : [deployed_url](https://llamacoder.together.ai/share/v2/B4PwAm35JdtYxFEr)
 ![output](Screenshot%202025-09-21%20104731.jpg)
- 
->>>>>>> main
+

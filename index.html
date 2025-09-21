@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator - Test Your Compatibility</title>
+    <meta name="description" content="Discover your love compatibility with our fun Love Calculator. Enter two names and see how compatible you are!">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💕 Love Calculator 💕</h1>
+            <p>Discover your romantic compatibility!</p>
+        </header>
+
+        <main>
+            <div class="calculator-card">
+                <div class="input-section">
+                    <div class="input-group">
+                        <label for="name1">Your Name</label>
+                        <input type="text" id="name1" placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="heart-divider">
+                        <span>❤️</span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="name2">Their Name</label>
+                        <input type="text" id="name2" placeholder="Enter their name">
+                    </div>
+                </div>
+
+                <button id="calculateBtn" class="calculate-btn">
+                    Calculate Love ✨
+                </button>
+
+                <div id="result" class="result-section hidden">
+                    <div class="compatibility-meter">
+                        <div class="meter-bg">
+                            <div id="meterFill" class="meter-fill"></div>
+                        </div>
+                        <div id="percentage" class="percentage">0%</div>
+                    </div>
+                    
+                    <div id="message" class="love-message"></div>
+                    
+                    <div class="action-buttons">
+                        <button id="shareBtn" class="share-btn">Share Result 📱</button>
+                        <button id="tryAgainBtn" class="try-again-btn">Try Again 🔄</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for fun • Not scientifically accurate!</p>
+        </footer>
+    </div>
+
+    <div class="floating-hearts">
+        <span class="heart">💕</span>
+        <span class="heart">💖</span>
+        <span class="heart">💗</span>
+        <span class="heart">💓</span>
+        <span class="heart">💝</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

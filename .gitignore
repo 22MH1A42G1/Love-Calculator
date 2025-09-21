@@ -1,0 +1,23 @@
+# Build artifacts
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Runtime files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
